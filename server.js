@@ -13,7 +13,7 @@ app.use('/', express.static("public"))
 
 app.use('/', require('./routes/root'))
 
-app.use('/', require('./routes/apiInput'))
+app.use('/', require('./routes/api'))
 
 app.listen(PORT, (err) => {
     if (err) console.log(err);
